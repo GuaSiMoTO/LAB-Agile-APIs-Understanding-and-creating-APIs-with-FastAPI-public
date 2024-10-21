@@ -60,8 +60,6 @@ In this exercise, we will immerse ourselves in the exciting world of **Pokémon*
 
 Additionally, each endpoint should be accompanied by a **Pydantic model** to handle validations and clear responses indicating whether the request was successful or if an error occurred. Errors must be handled with descriptive messages explaining what went wrong. Don’t worry, Pydantic will handle 50% of the work with validations!
 
-
-
 ### Exercise 1: **Add Favorite Initial Pokémon**
 **Create a list of favorite initial Pokémon**:
 
@@ -80,7 +78,6 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
      ```
    - **Validation**: Ensure that there are no duplicates based on the Pokémon's `id`.
    - **Error Handling**: If you try to add a Pokémon with the same `id`, return an error indicating that the Pokémon already exists in the list.
-
 
 <img src="https://github.com/user-attachments/assets/097d4c6e-2986-425e-b7a8-51966e550cd8" height="700" width="350" align="right">
 
@@ -126,6 +123,8 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
    - This endpoint will allow you to release a Pokémon from your team if you no longer want it.
    - **Validation**: Ensure that the team has a Pokémon before attempting to release it.
    - **Error Handling**: If you try to release a Pokémon when the team is empty, return an error.
+
+### Exercise 9: **Deploy the Pokémon API with Uvicorn**
 
 ---
 
