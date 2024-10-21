@@ -1,7 +1,7 @@
 
 ![](https://user-images.githubusercontent.com/970858/63474771-d6734700-c469-11e9-83bb-9429da563909.png)
 
-# LAB-Agile-APIs-with-FastAPi-and-MongoDB-Understanding-and-creating-APIs-with-FastAPI
+# LAB-Agile-APIs-Understanding-and-creating-APIs-with-FastAPI
 
 ## Introduction
 
