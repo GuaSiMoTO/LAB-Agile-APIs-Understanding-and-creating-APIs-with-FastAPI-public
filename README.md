@@ -17,14 +17,6 @@ We are going to work just with postman to send petitions to [The Cocktail DB](ht
 - Answer all the questions done on this file (take pictures when needed).
 - Use postman to retrieve/send the data.
 
-## Questions
-
-1. **What is an API?**
-1. **What does any API respond if you send something wrong on a request?** (take a picture with postman on one api you have chosen)
-1. **Which HTTP verb is used for updating data?**
-1. **Which HTTP verb is used for deleting data?**
-1. **What does SOLID mean and why it's useful?** (go a bit deeper reasearching!)
-
 ## Moe's Tavern API: Cocktail Missions
 
 
