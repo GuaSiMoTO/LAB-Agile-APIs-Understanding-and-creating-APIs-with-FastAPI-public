@@ -118,13 +118,7 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
    - This endpoint will receive the Pokémon's `id` and remove it from the list.
    - **Error Handling**: If the Pokémon is not in the list, return an error indicating that it was not found.
 
-### Exercise 8: **Release a Pokémon from the Team**
-**Create an endpoint to release a Pokémon from your team**:
-   - This endpoint will allow you to release a Pokémon from your team if you no longer want it.
-   - **Validation**: Ensure that the team has a Pokémon before attempting to release it.
-   - **Error Handling**: If you try to release a Pokémon when the team is empty, return an error.
-
-### Exercise 9: **Deploy the Pokémon API with Uvicorn**
+### Exercise 8: **Deploy the Pokémon API with Uvicorn**
 
 ---
 
