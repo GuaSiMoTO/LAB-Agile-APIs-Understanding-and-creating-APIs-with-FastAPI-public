@@ -63,7 +63,7 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
 ### Exercise 1: **Add Favorite Initial Pokémon**
 **Create a list of favorite initial Pokémon**:
 
-<img src="https://github.com/user-attachments/assets/0da3f010-c0cf-468a-b984-b4e6635e67f1" height="350" width="350" align="right">
+<img src="https://github.com/user-attachments/assets/0da3f010-c0cf-468a-b984-b4e6635e67f1" height="300" width="300" align="right">
 
    - We need a list of initial Pokémon. Create a variable where you will store your favorite initial Pokémon.
    - Develop an endpoint that allows **adding** Pokémon to this list.
@@ -79,7 +79,7 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
    - **Validation**: Ensure that there are no duplicates based on the Pokémon's `id`.
    - **Error Handling**: If you try to add a Pokémon with the same `id`, return an error indicating that the Pokémon already exists in the list.
 
-<img src="https://github.com/user-attachments/assets/097d4c6e-2986-425e-b7a8-51966e550cd8" height="700" width="350" align="right">
+<img src="https://github.com/user-attachments/assets/097d4c6e-2986-425e-b7a8-51966e550cd8" height="600" width="300" align="right">
 
 ### Exercise 2: **Show All Initial Pokémon**
 **Create an endpoint to list all initial Pokémon**:
@@ -98,9 +98,10 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
 
 ### Exercise 5: **Assign an Initial Pokémon to Your Team**
 
+<img src="https://github.com/user-attachments/assets/318e151a-21a5-4e16-a5ae-dda751002f7a" height="650" width="300" align="right">
+
 **Create an endpoint to assign a random initial Pokémon to your team**:
    - This endpoint will select a **random** Pokémon from the list of initials and assign it to a new variable representing your Pokémon team.
-     <img src="https://github.com/user-attachments/assets/318e151a-21a5-4e16-a5ae-dda751002f7a" height="700" width="350" align="right">
    - **Validations**: 
      - Check if there is already a Pokémon in your team. If so, decide whether to remove it (only if it is an initial Pokémon) or return an error.
      - If removing, ensure that only initial Pokémon are removed. If it's not an initial Pokémon, protect your team so you don't lose Pokémon captured later on.
