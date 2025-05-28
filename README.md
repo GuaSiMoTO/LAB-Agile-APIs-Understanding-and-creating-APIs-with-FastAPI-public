@@ -82,30 +82,30 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
 <img src="https://github.com/user-attachments/assets/097d4c6e-2986-425e-b7a8-51966e550cd8" height="600" width="300" align="right">
 
 ### Exercise 2: **Show All Initial Pokémon**
-**Create an endpoint to list all initial Pokémon**:
-   - This endpoint should return the complete list of initial Pokémon that you have added.
+**Create an endpoint to list all starter Pokémon**:
+   - This endpoint should return the complete list of starter Pokémon that you have added.
    - **Response**: If there are no Pokémon in the list, return a message indicating that the list is empty.
 
 ### Exercise 3: **Show a Specific Pokémon**
 **Create an endpoint to display a Pokémon by its `id`**:
-   - The endpoint should receive an `id` as a parameter and return the corresponding Pokémon's information.
+   - The endpoint should receive an `id` as a **path parameter** and return the corresponding Pokémon's information.
    - **Error Handling**: If the `id` does not exist, return an error specifying that the Pokémon was not found.
 
 ### Exercise 4: **Filter Pokémon by Type or Level**
 **List Pokémon filtered by type or level**:
-   - Create an endpoint that allows filtering the list of initial Pokémon using **query parameters** to search by type (`type`) or level (`level`).
+   - Update the endpoint from exercise 2 to allow filtering the list of starter Pokémon using **query parameters** to search by type (`type`) or level (`level`).
    - **Validation**: If the parameters don't match any Pokémon, return a message indicating that no matches were found.
 
 ### Exercise 5: **Assign an Initial Pokémon to Your Team**
 
 <img src="https://github.com/user-attachments/assets/318e151a-21a5-4e16-a5ae-dda751002f7a" height="650" width="300" align="right">
 
-**Create an endpoint to assign a random initial Pokémon to your team**:
-   - This endpoint will select a **random** Pokémon from the list of initials and assign it to a new variable representing your Pokémon team.
+**Create an endpoint to assign a random starter Pokémon to your team**:
+   - This endpoint will select a **random** Pokémon from the list of starter and assign it to a new variable representing your Pokémon team.
    - **Validations**: 
-     - Check if there is already a Pokémon in your team. If so, decide whether to remove it (only if it is an initial Pokémon) or return an error.
-     - If removing, ensure that only initial Pokémon are removed. If it's not an initial Pokémon, protect your team so you don't lose Pokémon captured later on.
-   - **Error Handling**: If you try to add a new initial Pokémon without releasing the current one, return an error indicating that you already have an assigned initial Pokémon.
+     - Check if there is already a Pokémon in your team. If so, decide whether to remove it (only if it is an starter Pokémon) or return an error.
+     - If removing, ensure that only starter Pokémon are removed. If it's not an starter Pokémon, protect your team so you don't lose Pokémon captured later on.
+   - **Error Handling**: If you try to add a new initial Pokémon without releasing the current one, return an error indicating that you already have an assigned starter Pokémon.
      
 ### Exercise 6: **Update Pokémon Information**
  **Create an endpoint to update a Pokémon's data**:
@@ -115,7 +115,7 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
 
 
 ### Exercise 7: **Delete a Pokémon from the Initial List**
-**Create an endpoint to delete a Pokémon from the initial list**:
+**Create an endpoint to delete a Pokémon from the starter list**:
    - This endpoint will receive the Pokémon's `id` and remove it from the list.
    - **Error Handling**: If the Pokémon is not in the list, return an error indicating that it was not found.
 
