@@ -119,7 +119,7 @@ Additionally, each endpoint should be accompanied by a **Pydantic model** to han
    - This endpoint will receive the Pokémon's `id` and remove it from the list.
    - **Error Handling**: If the Pokémon is not in the list, return an error indicating that it was not found.
 
-### Exercise 8: **Deploy the Pokémon API with Uvicorn**
+### Exercise 8: **Local Deploy the Pokémon API with Uvicorn**
 
 ---
 
