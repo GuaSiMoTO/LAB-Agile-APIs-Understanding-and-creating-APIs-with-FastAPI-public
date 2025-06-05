@@ -32,21 +32,39 @@ You're going to use Postman to make requests to The Cocktail DB API, just like y
 ### Mission 1: The Special Customer Order
 - I’ve got a weird customer who only wants drinks with **milk**. So go ahead and bring me **all the drinks** that have `milk` as an ingredient. No idea who orders that in a bar, but you do the job.
 
+![image](https://github.com/user-attachments/assets/ad739f0d-e5c4-4ee2-b36a-d291c77cc7ae)
+
 
 ### Mission 2: The Mysterious Orange
 - Another customer’s asking for something with **orange**. I need you to get **all drinks made with orange**. And once you have it, show me a **preview of the first cocktail** you find. You know, just to see if this orange stuff is any good.
 
+![image](https://github.com/user-attachments/assets/4ebc21bb-4870-44c1-a7c0-205d79d9660b)
+![image](https://github.com/user-attachments/assets/26be3058-f9f2-4015-a97d-bdef7ffe86cb)
+
+
+
 ### Mission 3: Make It Bigger!
 - That orange drink caught my eye! But now I need a **medium-sized preview**. Yeah, no thumbnails, I want to see it properly! Don’t make me mad.
+
+![image](https://github.com/user-attachments/assets/e61bb5c6-4c70-476e-9aa6-5bae0eb73abb)
+
 
 ### Mission 4: The Mystery Customer
 - I’ve got an order with ID **13938**. No clue what it is, but I need you to find out what drink corresponds to that ID. And make it snappy!
 
+![image](https://github.com/user-attachments/assets/8680550e-e1d7-4e9f-8cde-b799c793a622)
+![image](https://github.com/user-attachments/assets/81b30cb2-addb-4c8a-80ef-b2cb4dd56317)
+
 ### Mission 5: Drinker’s Luck
 - I’m bored of the same old drinks, so surprise me with a **random cocktail**. Sometimes, you don’t know what you need until you see it on the bar.
 
+![image](https://github.com/user-attachments/assets/7b4c81e5-138f-4644-b6b1-e6773bd3cf68)
+
+
 ### Mission 6: We Need Variety!
 - Not everything can be Duff beer. I want to see **all the cocktail categories** you can offer me. This bar needs options, dammit!
+
+![image](https://github.com/user-attachments/assets/aad0a6c8-565f-4b6d-9f90-51cfaf9a74ea)
 
 ---
 
