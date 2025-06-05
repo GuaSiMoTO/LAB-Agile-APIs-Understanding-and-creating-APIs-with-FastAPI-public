@@ -39,7 +39,8 @@ You're going to use Postman to make requests to The Cocktail DB API, just like y
 - Another customer’s asking for something with **orange**. I need you to get **all drinks made with orange**. And once you have it, show me a **preview of the first cocktail** you find. You know, just to see if this orange stuff is any good.
 
 ![image](https://github.com/user-attachments/assets/4ebc21bb-4870-44c1-a7c0-205d79d9660b)
-![image](https://github.com/user-attachments/assets/26be3058-f9f2-4015-a97d-bdef7ffe86cb)
+
+![image](https://github.com/user-attachments/assets/8baefa06-90ae-4556-86bf-a46a0f22c33d)
 
 
 
