@@ -47,7 +47,8 @@ You're going to use Postman to make requests to The Cocktail DB API, just like y
 ### Mission 3: Make It Bigger!
 - That orange drink caught my eye! But now I need a **medium-sized preview**. Yeah, no thumbnails, I want to see it properly! Don’t make me mad.
 
-![image](https://github.com/user-attachments/assets/e61bb5c6-4c70-476e-9aa6-5bae0eb73abb)
+![image](https://github.com/user-attachments/assets/7fd4be3a-15cc-450a-a8f1-ea6987b0c085)
+
 
 
 ### Mission 4: The Mystery Customer
